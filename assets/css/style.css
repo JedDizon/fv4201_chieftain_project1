@@ -25,7 +25,15 @@ body {
 
 /*Header*/
 header {
-    background-color: brown;
+    background-color: #9EC1A3;
+}
+
+h1 {
+    font-family: "markazi", sans-serif;
+}
+
+#menu {
+    list-style: none;
 }
 
 /*Main*/
@@ -37,5 +45,5 @@ main {
 
 /*Footer*/
 footer {
-    background-color: blueviolet;
+    background-color: #40798C;
 }
