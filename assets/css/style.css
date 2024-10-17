@@ -1,3 +1,11 @@
+/*google font style import
+cabin for general
+Markazi for title, logo, nav
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Markazi+Text:wght@400..700&display=swap');
+
+
 /*Wildcard selector*/
 * {
     padding: 0;
@@ -12,6 +20,7 @@ body {
     flex-direction: column;
     /*Generic porject styles*/
     background-color: #70A9A1;
+    font-family: "cabin", sans-serif;
 }
 
 /*Header*/
@@ -21,7 +30,7 @@ header {
 
 /*Main*/
 main {
-    
+
     /*make main take up space to push footer down*/
     flex: 1 0 auto;
 }
