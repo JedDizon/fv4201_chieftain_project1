@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+/*General Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic porject styles*/
+    background-color: #70A9A1;
+}
+
 /*Header*/
 header {
     background-color: brown;
@@ -12,7 +21,9 @@ header {
 
 /*Main*/
 main {
-    background-color: blanchedalmond;
+    
+    /*make main take up space to push footer down*/
+    flex: 1 0 auto;
 }
 
 /*Footer*/
