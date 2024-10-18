@@ -103,3 +103,27 @@ main {
 footer {
     background-color: #40798C;
 }
+
+/*Media query - tablets (768px)*/
+@media screen and (min-width:786px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
