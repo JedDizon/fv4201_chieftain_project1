@@ -78,6 +78,7 @@ Favicon
 <a href="https://www.flaticon.com/free-icons/military" title="military icons">Military icons created by cube29 - Flaticon</a>
 Icons font awesome
 Photos
+Color palette combination taken from colorkit https://colorkit.co/palettes/ 
 
 Extra help
   Mentor
