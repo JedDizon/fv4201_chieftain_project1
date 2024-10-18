@@ -36,6 +36,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 1px #9EC1A3;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1 {
@@ -71,7 +74,21 @@ nav {
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px 1px #9EC1A3;
-    display: hidden;
+    display: none;
+    top: 100%;
+}
+
+/*Checkbox pseudoclass*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display:none
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /*Main*/
@@ -79,6 +96,7 @@ main {
 
     /*make main take up space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 
 /*Footer*/
