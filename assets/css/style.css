@@ -52,6 +52,10 @@ h1 {
 
 #menu li {
     margin-bottom: 1em;
+    background-color: #9EC1A3;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
 }
 
 .active {
@@ -60,7 +64,14 @@ h1 {
 
 /*Dropdown menu*/
 nav {
-    
+    position: absolute;
+    background-color: #9EC1A3;
+    left: 0;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 1px 1px #9EC1A3;
+    display: hidden;
 }
 
 /*Main*/
