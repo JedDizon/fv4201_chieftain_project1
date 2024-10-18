@@ -23,18 +23,31 @@ body {
     font-family: "cabin", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #1F363D;
+}
+
 /*Header*/
 header {
     background-color: #9EC1A3;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 1px 1px #9EC1A3;
 }
 
 h1 {
     font-family: "markazi", sans-serif;
+    list-style: none;
+    letter-spacing: 1px;
 }
 
 #menu {
-    list-style: none;
+    list-style: none;    
 }
+
 
 /*Main*/
 main {
