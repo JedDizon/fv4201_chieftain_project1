@@ -111,8 +111,9 @@ main {
 #intro {
     background-color: #132A13;
     color: #90A955;
-    padding: 0 1rem;
-    top: 100%;
+    padding: 1em;
+    border-radius: 1em;
+    line-height: 27px;
 }
 
 /*Timeline*/
@@ -130,10 +131,48 @@ main {
 
 .checkpoint div {
     border: 2px solid #90A955;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #4F772D;
 }
 
-/*margin: 5em auto;
-    max-width: 34.15em;*/
+.checkpoint p {
+    line-height: 27px;
+    color: #ECF39E;
+}
+
+/*To move the sections left and right of th timeline*/
+.checkpoint:nth-child(odd) {
+    border-left: 3px solid #90A955;
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+
+.checkpoint:nth-child(even) {
+    border-right: 3px solid #90A955;
+    padding-right: 3em;
+    transform: translateX(-17em);
+}
+
+/*To add lines connecting to the timeline*/
+.checkpoint:nth-child(odd)::before, 
+.checkpoint:nth-child(even)::before {
+    content: '';
+    background: #90A955;
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.checkpoint:nth-child(odd)::before {
+    left: 0;
+}
+
+.checkpoint:nth-child(even)::before {
+    right: 0;
+}
 
 /*Footer*/
 footer {
