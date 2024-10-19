@@ -108,10 +108,20 @@ main {
 
 /*Footer*/
 footer {
-    background-color: #40798C;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #ECF39E;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
 }
 
 /*Media query - tablets (768px)*/
