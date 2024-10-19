@@ -64,6 +64,7 @@ In addition, you should mention in this section how your project looks and works
 -setting the timeline
   -when putting a border around the divs, only the first div was responding
     - extra div closing tags were created after copying and pasting each checkpoint section.
+  -timeline not a complete solid line
 
 
 Unfixed Bugs
