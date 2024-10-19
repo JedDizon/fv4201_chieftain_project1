@@ -61,6 +61,7 @@ h1 {
     width: 100%;
     left: 0;
     padding: 0 1rem;
+    white-space: nowrap;
 }
 
 .active {
