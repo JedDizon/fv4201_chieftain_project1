@@ -50,7 +50,7 @@ h1 {
 }
 
 #menu {
-    list-style: none;   
+    list-style: none;
     letter-spacing: 1px;
     font-size: 110%;
 }
@@ -64,7 +64,7 @@ h1 {
 }
 
 .active {
-    border-bottom:1px solid #1F363D;
+    border-bottom: 1px solid #1F363D;
 }
 
 /*Dropdown menu*/
@@ -86,7 +86,7 @@ nav {
 }
 
 #nav-toggle {
-    display:none
+    display: none
 }
 
 .nav-toggle-label {
@@ -104,7 +104,7 @@ main {
     background-color: #31572C;
     top: 100%;
     color: #ECF39E;
-    padding: 2em;    
+    padding: 2em;
 }
 
 /*Intro*/
@@ -155,7 +155,7 @@ main {
 }
 
 /*To add lines connecting to the timeline*/
-.checkpoint:nth-child(odd)::before, 
+.checkpoint:nth-child(odd)::before,
 .checkpoint:nth-child(even)::before {
     content: '';
     background: #90A955;
@@ -172,6 +172,27 @@ main {
 
 .checkpoint:nth-child(even)::before {
     right: 0;
+}
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before {
+    content: '';
+    background: #90A955;
+    box-shadow: 0 0 0.5em #90A955;
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.checkpoint:nth-child(odd) div::before {
+    left: -0.5em;
+}
+
+.checkpoint:nth-child(even) div::before {
+    right: -0.5em;
 }
 
 /*Footer*/
@@ -194,6 +215,7 @@ footer {
 
 /*Media query - tablets (768px)*/
 @media screen and (min-width:786px) {
+
     /*Header*/
     nav {
         display: block;
@@ -207,7 +229,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -217,7 +239,7 @@ footer {
 
     #logo {
         line-height: 75px;
-        margin:0 0.3rem;
+        margin: 0 0.3rem;
     }
 
     /*Main*/
@@ -228,8 +250,9 @@ footer {
 
 /*Media query - laptops (992px)*/
 @media screen and (min-width:992px) {
+
     /*Header*/
     #menu a:hover {
-        border-bottom:1px solid #1F363D;
+        border-bottom: 1px solid #1F363D;
     }
 }
