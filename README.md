@@ -57,6 +57,7 @@ In this section, you need to convince the assessor that you have conducted enoug
 -----------------------------
 Bugs
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.If this section grows too long, you may want to split it off into a separate file and link to it from here.Validator TestingHTMLNo errors were returned when passing through the official W3C validatorCSSNo errors were found when passing through the official (Jigsaw) validatorUnfixed Bugs
+
 - when initially creating the timeline, footer appearing in the center of the screen
   - value positon set to fixed and bottom to 0, but now the content is being covered by the footer at the bottom
   - fixed after styling footer links with display flex.
@@ -65,6 +66,7 @@ In addition, you should mention in this section how your project looks and works
   -when putting a border around the divs, only the first div was responding
     - extra div closing tags were created after copying and pasting each checkpoint section.
   -timeline not a complete solid line
+
 
 
 Unfixed Bugs
@@ -98,5 +100,7 @@ Outside code
     Code for dropdown 
     initial styling for logo and dropdown
   timeline youtube tutorial https://www.youtube.com/watch?v=bI3J5rUonEg&ab_channel=QuickCodingTuts 
+-made background image darker - stack overflow
+
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.You can break the credits section up into Content and Media, depending on what you have included in your project.README - love runningCertain code - love running/coffee shopContentThe text for the Home page was taken from Wikipedia Article AInstructions on how to implement form validation on the Sign Up page was taken from Specific YouTube TutorialThe icons in the footer were taken from Font AwesomeMediaThe photos used on the home and sign up page are from This Open Source siteThe images used for the gallery page were taken from this other open source site

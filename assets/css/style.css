@@ -99,7 +99,8 @@ main {
     /*make main take up space to push footer down*/
     flex: 1 0 auto;
     margin-top: 40px;
-    background: url("../images/pexels-markus-winkler-1430818-5406583.jpg") no-repeat center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../images/pexels-markus-winkler-1430818-5406583.jpg") no-repeat center fixed;
     background-size: cover;
     background-color: #31572C;
     top: 100%;
