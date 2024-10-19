@@ -18,7 +18,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Generic porject styles*/
+    margin: 0;
+    /*Generic project styles*/
     background-color: #70A9A1;
     font-family: "cabin", sans-serif;
 }
@@ -99,9 +100,18 @@ main {
     margin-top: 40px;
 }
 
+
+#timeline {
+    background-color: bisque;
+    top: 100%;
+}
+
 /*Footer*/
 footer {
     background-color: #40798C;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /*Media query - tablets (768px)*/

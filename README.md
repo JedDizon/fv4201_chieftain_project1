@@ -57,6 +57,9 @@ In this section, you need to convince the assessor that you have conducted enoug
 -----------------------------
 Bugs
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.If this section grows too long, you may want to split it off into a separate file and link to it from here.Validator TestingHTMLNo errors were returned when passing through the official W3C validatorCSSNo errors were found when passing through the official (Jigsaw) validatorUnfixed Bugs
+- when initially creating the timeline, footer appearing in the center of the screen
+  - value positon set to fixed and bottom to 0, but now the content is being covered by the footer at the bottom
+
 
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
