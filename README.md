@@ -61,6 +61,10 @@ In addition, you should mention in this section how your project looks and works
   - value positon set to fixed and bottom to 0, but now the content is being covered by the footer at the bottom
   - fixed after styling footer links with display flex.
 
+-setting the timeline
+  -when putting a border around the divs, only the first div was responding
+    - extra div closing tags were created after copying and pasting each checkpoint section.
+
 
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.

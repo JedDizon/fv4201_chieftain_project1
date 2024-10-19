@@ -20,8 +20,9 @@ body {
     flex-direction: column;
     margin: 0;
     /*Generic project styles*/
-    background-color: #70A9A1;
+    background-color: #132A13;
     font-family: "cabin", sans-serif;
+    color: #90A955;
 }
 
 a {
@@ -98,15 +99,41 @@ main {
     /*make main take up space to push footer down*/
     flex: 1 0 auto;
     margin-top: 40px;
-}
-
-
-#timeline {
     background: url("../images/pexels-markus-winkler-1430818-5406583.jpg") no-repeat center fixed;
     background-size: cover;
-    background-color: bisque;
+    background-color: #31572C;
+    top: 100%;
+    color: #ECF39E;
+    padding: 2em;    
+}
+
+/*Intro*/
+#intro {
+    background-color: #132A13;
+    color: #90A955;
+    padding: 0 1rem;
     top: 100%;
 }
+
+/*Timeline*/
+
+#timeline {
+    margin: 5em auto;
+    max-width: 34.15em;
+}
+
+.checkpoint {
+    max-width: 34em;
+    padding: 2em;
+    position: relative;
+}
+
+.checkpoint div {
+    border: 2px solid #90A955;
+}
+
+/*margin: 5em auto;
+    max-width: 34.15em;*/
 
 /*Footer*/
 footer {
