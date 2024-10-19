@@ -102,6 +102,8 @@ main {
 
 
 #timeline {
+    background: url("../images/pexels-markus-winkler-1430818-5406583.jpg") no-repeat center fixed;
+    background-size: cover;
     background-color: bisque;
     top: 100%;
 }
