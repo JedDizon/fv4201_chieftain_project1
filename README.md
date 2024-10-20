@@ -69,6 +69,7 @@ In addition, you should mention in this section how your project looks and works
 -timeline not a complete solid line
 
 -image in intro causing background padding to appear
+  - went away after making image responsive
 -padding under the header
   - went away after adding padding: 1rem 1rem; to header
 
