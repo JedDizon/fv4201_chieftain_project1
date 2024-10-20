@@ -30,6 +30,11 @@ a {
     color: #1F363D;
 }
 
+/*TO hide titles*/
+.hide_title {
+    display: none;
+}
+
 /*Header*/
 header {
     background-color: #9EC1A3;
@@ -110,10 +115,6 @@ main {
 }
 
 /*Intro*/
-#intro_section {
-    display: flex;
-
-}
 
 #intro {
     background-color: #132A13;
@@ -121,17 +122,21 @@ main {
     padding: 1em;
     border-radius: 1em;
     line-height: 27px;
-    
+    display: flex;
 }
 
-/* Intro Pic */
 #chieftain_jordanian_pic {
-    width: 80vh;
-    height: 80vh;
+    width: 78vh;
+    height: 78vh;
     border: 2px solid #90A955;
     border-radius: 50%;
 }
 
+#intro p {
+    vertical-align: middle;
+    text-align:justify;
+    padding: 3em;
+}
 
 /*Timeline*/
 
