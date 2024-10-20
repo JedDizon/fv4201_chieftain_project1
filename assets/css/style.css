@@ -20,7 +20,8 @@ body {
     flex-direction: column;
     margin: 0;
     /*Generic project styles*/
-    background-color: #132A13;
+    /*background-color: #132A13;*/
+    background-color: red;
     font-family: "cabin", sans-serif;
     color: #90A955;
 }
@@ -38,7 +39,7 @@ a {
 /*Header*/
 header {
     background-color: #9EC1A3;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -111,6 +112,8 @@ main {
     background-color: #31572C;
     top: 100%;
     color: #ECF39E;
+    
+    /*below seem affects the bug of green under header*/
     padding: 2em;
 }
 
@@ -284,6 +287,33 @@ footer {
 /*Media query - phones (1150px)*/
 @media screen and (max-width:1150px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
+    /*Intro*/
+   #intro {
+       /* background-color: #132A13;
+        color: #90A955;
+        padding: 1em;
+        border-radius: 1em;
+        line-height: 27px;
+        display: flex;*/
+        flex-direction: column;
+    }
+    
+    #chieftain_jordanian_pic {
+        width: 78vh;
+        height: 78vh;
+        border: 2px solid #90A955;
+        border-radius: 50%;
+    }
+    
+    #intro p {
+        vertical-align: middle;
+        text-align:justify;
+        padding: 3em;
+    }
     /*Timeline*/
     #timeline {
         width: 80vw;
@@ -310,5 +340,6 @@ footer {
         left: 50%;
         transform: translateX(-50%);
     }
+
 
 }

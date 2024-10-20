@@ -65,9 +65,12 @@ In addition, you should mention in this section how your project looks and works
 -setting the timeline
   -when putting a border around the divs, only the first div was responding
     - extra div closing tags were created after copying and pasting each checkpoint section.
-  -timeline not a complete solid line
 
+-timeline not a complete solid line
 
+-image in intro causing background padding to appear
+-padding under the header
+  - went away after adding padding: 1rem 1rem; to header
 
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
