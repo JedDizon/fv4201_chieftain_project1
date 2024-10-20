@@ -293,26 +293,16 @@ footer {
 
     /*Intro*/
    #intro {
-       /* background-color: #132A13;
-        color: #90A955;
-        padding: 1em;
-        border-radius: 1em;
-        line-height: 27px;
-        display: flex;*/
         flex-direction: column;
     }
     
     #chieftain_jordanian_pic {
-        width: 78vh;
-        height: 78vh;
-        border: 2px solid #90A955;
-        border-radius: 50%;
+        max-width: 100%;
+        height: auto;
     }
     
     #intro p {
-        vertical-align: middle;
-        text-align:justify;
-        padding: 3em;
+        padding: 1em;
     }
     /*Timeline*/
     #timeline {
