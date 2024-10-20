@@ -110,13 +110,28 @@ main {
 }
 
 /*Intro*/
+#intro_section {
+    display: flex;
+
+}
+
 #intro {
     background-color: #132A13;
     color: #90A955;
     padding: 1em;
     border-radius: 1em;
     line-height: 27px;
+    
 }
+
+/* Intro Pic */
+#chieftain_jordanian_pic {
+    width: 80vh;
+    height: 80vh;
+    border: 2px solid #90A955;
+    border-radius: 50%;
+}
+
 
 /*Timeline*/
 
@@ -175,6 +190,8 @@ main {
 .checkpoint:nth-child(even)::before {
     right: 0;
 }
+
+/*To add circles to the timeline*/
 
 .checkpoint:nth-child(odd) div::before,
 .checkpoint:nth-child(even) div::before {

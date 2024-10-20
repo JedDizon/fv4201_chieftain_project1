@@ -91,6 +91,7 @@ Icons font awesome
 Photos
 Color palette combination taken from colorkit https://colorkit.co/palettes/ 
 History page background photo of the Rhine ("Town in a Grassy Valley") by Markus Winkler from Pexels
+Wikimedia Commons - tank photos
 
 Extra help
   Mentor
