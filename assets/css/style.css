@@ -129,10 +129,10 @@ main {
 }
 
 #chieftain_jordanian_pic {
-    width: 78vh;
-    height: 78vh;
+    width: auto;
+    height: 70vh;
     border: 2px solid #90A955;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 #intro p {
@@ -164,6 +164,18 @@ main {
 .checkpoint p {
     line-height: 27px;
     color: #ECF39E;
+}
+
+.checkpoint img {
+    width: 50vh;
+    height: auto;
+    border: 2px solid #90A955;
+    border-radius: 15%;
+}
+
+.checkpoint label {
+    color: #CFE0C3;
+    font-size: small;
 }
 
 /*To move the sections left and right of th timeline*/
@@ -331,5 +343,11 @@ footer {
         transform: translateX(-50%);
     }
 
+    /*Timeline Images*/
 
+    .checkpoint img {
+        max-width: 100%;
+        height: auto;
+    }
+    
 }
