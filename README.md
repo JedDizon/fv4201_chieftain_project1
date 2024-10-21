@@ -67,6 +67,7 @@ In addition, you should mention in this section how your project looks and works
     - extra div closing tags were created after copying and pasting each checkpoint section.
 
 -timeline not a complete solid line
+- fixed timeline not straight bug by adjusting max-width of checkpoint div id
 
 -image in intro causing background padding to appear
   - went away after making image responsive
