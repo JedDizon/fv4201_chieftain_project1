@@ -271,6 +271,17 @@ main {
 }
 
 /*Events images*/
+.events img {
+    width: 50vh;
+    height: auto;
+    border: 2px solid #90A955;
+    border-radius: 15%;
+}
+
+.events label {
+    color: #CFE0C3;
+    font-size: small;
+}
 
 /*Specs*/
 table {
