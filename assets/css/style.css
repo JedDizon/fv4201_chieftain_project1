@@ -31,6 +31,10 @@ a {
     color: #1F363D;
 }
 
+/*h3 {
+    margin-bottom: 0.5em;
+}*/
+
 /*TO hide titles*/
 .hide_title {
     display: none;
@@ -112,7 +116,7 @@ main {
     background-color: #31572C;
     top: 100%;
     color: #ECF39E;
-    
+
     /*below seem affects the bug of green under header*/
     padding: 2em;
 }
@@ -137,7 +141,7 @@ main {
 
 #intro p {
     vertical-align: middle;
-    text-align:justify;
+    text-align: justify;
     padding: 3em;
 }
 
@@ -253,10 +257,30 @@ main {
     border-radius: 1em;
     background-color: #4F772D;
     margin: 2em;
-
-    
 }
 
+/*Specs*/
+table {
+    border-collapse: collapse;
+    text-align: left;
+
+}
+
+table {
+    border: 1.5px solid #132A13;
+    padding: 0.5em;
+}
+
+td,
+th {
+    padding: 0.5em;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #31572C;
+}
 
 /*Footer*/
 footer {
@@ -328,18 +352,19 @@ footer {
     }
 
     /*Intro*/
-   #intro {
+    #intro {
         flex-direction: column;
     }
-    
+
     #chieftain_jordanian_pic {
         max-width: 100%;
         height: auto;
     }
-    
+
     #intro p {
         padding: 1em;
     }
+
     /*Timeline*/
     #timeline {
         width: 80vw;
@@ -373,5 +398,5 @@ footer {
         max-width: 100%;
         height: auto;
     }
-    
+
 }
