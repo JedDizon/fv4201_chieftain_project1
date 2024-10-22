@@ -124,7 +124,7 @@ main {
     color: #90A955;
     padding: 1em;
     border-radius: 1em;
-    line-height: 27px;
+    /*line-height: 27px;*/
     display: flex;
 }
 
@@ -162,7 +162,7 @@ main {
 }
 
 .checkpoint p {
-    line-height: 27px;
+    /*line-height: 27px;*/
     color: #ECF39E;
 }
 
@@ -233,6 +233,30 @@ main {
 .checkpoint:nth-child(even) div::before {
     right: -0.5em;
 }
+
+/*Events.html*/
+#notable_events {
+    margin: 5em auto;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.events {
+    max-width: 40%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border: 2px solid #90A955;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #4F772D;
+    margin: 2em;
+
+    
+}
+
 
 /*Footer*/
 footer {
