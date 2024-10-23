@@ -20,8 +20,7 @@ body {
     flex-direction: column;
     margin: 0;
     /*Generic project styles*/
-    /*background-color: #132A13;*/
-    background-color: red;
+    background-color: #132A13;
     font-family: "cabin", sans-serif;
     color: #90A955;
 }
@@ -291,7 +290,7 @@ table {
 }
 
 table {
-    border: 1.5px solid #132A13;
+    /*border: 1.5px solid #132A13;*/
     padding: 0.5em;
 }
 
@@ -422,5 +421,20 @@ footer {
     }
 
     /*Events*/
-   
+    #notable_events {
+        margin: 0;
+        width: 100%;
+        padding: 2em 0.05em;
+    }
+    
+    .events {
+        max-width: 100%;
+        padding: 0.5em;
+    }
+    /*Events Images*/
+
+    .events img {
+        max-width: 100%;
+        height: auto;
+    }
 }
