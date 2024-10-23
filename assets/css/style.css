@@ -312,6 +312,14 @@ tr:nth-child(even) {
     top: 100%;
 }
 
+/*redirect.html*/
+/*Redirect background*/
+#redirect_main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../images/1024px-Tank_unloading_from_rail_tank_carrier_1969_-_geograph.org.uk_-_2321335.jpg") no-repeat center fixed;
+    background-size: cover;
+    top: 100%;
+}
 
 /*Footer*/
 footer {
@@ -442,7 +450,7 @@ footer {
     .events {
         max-width: 100%;
         padding: 0.5em;
-       
+
     }
 
     /*Events Images*/
