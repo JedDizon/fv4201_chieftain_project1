@@ -476,4 +476,12 @@ footer {
         height: auto;
     }
 
+    /*Redirect*/
+    #redirect_message {
+        width: 100%;
+        text-align:center;
+        font-size: 6vw;
+        margin: 10em 1em;
+    }
+
 }
