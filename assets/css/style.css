@@ -321,6 +321,22 @@ tr:nth-child(even) {
     top: 100%;
 }
 
+#redirect_message {
+    text-align: center;
+    font-size: 150%;
+    position: relative;
+    border: 2px solid #90A955;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #4F772D;
+    margin: 7em;
+}
+
+#redirect_message a:hover {
+    color: #CFE0C3;
+    border-bottom: 1px solid #CFE0C3;
+}
+
 /*Footer*/
 footer {
     background-color: #ECF39E;
