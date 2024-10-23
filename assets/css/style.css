@@ -240,12 +240,11 @@ main {
 /*Events.html*/
 /*Events background*/
 
-#events_main
-{
+#events_main {
     background: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url("../images/pexels-behnam-23247594.jpg") no-repeat center fixed;
     background-size: cover;
-    top: 100%;    
+    top: 100%;
 }
 
 
@@ -302,6 +301,17 @@ th {
 tr:nth-child(even) {
     background-color: #31572C;
 }
+
+/*contact.html*/
+/*contact background*/
+
+#contact_main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("../images/1024px-Een_colonne_Engelse_Chieftain_tanks.jpg") no-repeat center fixed;
+    background-size: cover;
+    top: 100%;
+}
+
 
 /*Footer*/
 footer {
@@ -422,19 +432,24 @@ footer {
 
     /*Events*/
     #notable_events {
-        margin: 0;
-        width: 100%;
-        padding: 2em 0.05em;
+        margin: 0 0.005em;
+        width: 80vw;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
     }
-    
+
     .events {
         max-width: 100%;
         padding: 0.5em;
+       
     }
+
     /*Events Images*/
 
     .events img {
         max-width: 100%;
         height: auto;
     }
+
 }
