@@ -525,13 +525,25 @@ footer {
     #contact_us_form {
         max-width: 400px;
         padding: 1em;
-        top: 320px;
+        top: 1em; 
+        border-radius: 1em;
+        margin: 1em;
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        flex-grow: 1;
     }
     
     #contact_details {
         max-width: 400px;
-        left: 10%;
-        top: 560px;
+        left: 2%;
+        top: 2em;
+        padding: 1em;
+        border-radius: 1em;
+        margin: 1em;
+        display: flex;
+        position: relative;
+        flex-grow: 1;
     }
 
     /*Redirect*/
