@@ -128,7 +128,7 @@ main {
     color: #90A955;
     padding: 1em;
     border-radius: 1em;
-    /*line-height: 27px;*/
+    line-height: 27px;
     display: flex;
 }
 
@@ -166,7 +166,7 @@ main {
 }
 
 .checkpoint p {
-    /*line-height: 27px;*/
+    line-height: 27px;
     color: #ECF39E;
 }
 
