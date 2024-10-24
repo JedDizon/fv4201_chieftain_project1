@@ -267,6 +267,7 @@ main {
     border-radius: 1em;
     background-color: #4F772D;
     margin: 2em;
+    line-height: 27px;
 }
 
 /*Events images*/
@@ -318,14 +319,15 @@ tr:nth-child(even) {
     color: hsl(78, 33%, 50%);
     padding: 1em;
     border-radius: 1em;
+    line-height: 27px;
 }
 
 #contact_us_form {
     max-width: 400px;
     position: absolute;
     left: 10%;
-    top: 250px;
-
+    top: 280px;
+    line-height: 27px;
     background-color: #132A13;
     color: hsl(78, 33%, 50%);
     padding: 1em;
@@ -340,7 +342,7 @@ tr:nth-child(even) {
     max-width: 400px;
     position: absolute;
     left: 30%;
-    top: 250px;
+    top: 280px;
 
     background-color: #132A13;
     color: hsl(78, 33%, 50%);
@@ -366,6 +368,7 @@ tr:nth-child(even) {
     border-radius: 1em;
     background-color: #4F772D;
     margin: 7em;
+    line-height: 27px;
 }
 
 #redirect_message a:hover {
