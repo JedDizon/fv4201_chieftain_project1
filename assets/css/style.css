@@ -30,9 +30,10 @@ a {
     color: #1F363D;
 }
 
-/*h3 {
-    margin-bottom: 0.5em;
-}*/
+h3 {
+    margin: 0.5em auto;
+    font-size: 110%;
+}
 
 /*TO hide titles*/
 .hide_title {
@@ -325,7 +326,7 @@ tr:nth-child(even) {
     left: 10%;
     top: 250px;
 
-    background-color: RGBA(19, 42, 19, 0.6);
+    background-color: #132A13;
     color: hsl(78, 33%, 50%);
     padding: 1em;
     border-radius: 1em;
@@ -341,7 +342,7 @@ tr:nth-child(even) {
     left: 30%;
     top: 250px;
 
-    background-color: RGBA(19, 42, 19, 0.6);
+    background-color: #132A13;
     color: hsl(78, 33%, 50%);
     padding: 1em;
     border-radius: 1em;
