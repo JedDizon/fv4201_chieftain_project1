@@ -44,8 +44,8 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html"
-                        aria-label="Go to Home page and learn about the Chieftain's history and devlopment"
-                        class="active">History</a></li>
+                        aria-label="Go to Home page and learn about the Chieftain's history and devlopment">History</a>
+                </li>
                 <li><a href="events.html"
                         aria-label="Go to notable events page to learn about certain events pertaining to the chieftain">Notable
                         Events</a></li>
@@ -67,26 +67,29 @@
                 </p>
             </div>
 
-            <form method="get" action="redirect.html" id="contact_us_form">
-                <label for="user_email">Email:</label>
-                <input type="email" id="user_email" placeholder="Your email..." required>
-                <br>
-                <label for="contact_name">Name:</label>
-                <input type="text" id="contact_name" placeholder="Your name..." required>
-                <br>
-                <textarea id="feedback" placeholder="Your feedback here..." rows="8" cols="30" required></textarea>
-                <br>
-                <input type="submit">
-            </form>
-
+            <div id="form_div">
+                <form method="get" action="redirect.html" id="contact_us_form">
+                    <label for="user_email">Email:</label>
+                    <input type="email" id="user_email" placeholder="Your email..." required>
+                    <br>
+                    <label for="contact_name">Name:</label>
+                    <input type="text" id="contact_name" placeholder="Your name..." required>
+                    <br>
+                    <textarea id="feedback" placeholder="Your feedback here..." rows="8" cols="30" required></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
 
             <div id="contact_details">
-                <h3>Address</h3>
-                <p>57 Lawndrey Drive,<br>Atholone,<br>Westmeath,<br> Ireland</p>
-                <h3>Phone</h3>
-                <p>+353 891234567</p>
-                <h3>Email</h3>
-                <p>tanks.R.c001@gmail.com</p>
+                <div>
+                    <h3>Address</h3>
+                    <p>57 Lawndrey Drive,<br>Atholone,<br>Westmeath,<br> Ireland</p>
+                    <h3>Phone</h3>
+                    <p>+353 891234567</p>
+                    <h3>Email</h3>
+                    <p>tanks.R.c001@gmail.com</p>
+                </div>
             </div>
         </section>
     </main>

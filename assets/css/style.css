@@ -516,16 +516,22 @@ footer {
     }
 
     /*Contact*/
+    #contact_us {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     #disclaimer {
         padding: 1em;
         border-radius: 1em;
         margin: 1em;
     }
-    
+
     #contact_us_form {
-        max-width: 400px;
+        align-self: auto;
         padding: 1em;
-        top: 1em; 
+        top: 1em;
         border-radius: 1em;
         margin: 1em;
         display: flex;
@@ -533,9 +539,9 @@ footer {
         flex-wrap: wrap;
         flex-grow: 1;
     }
-    
+
     #contact_details {
-        max-width: 400px;
+        height: 100%;
         left: 2%;
         top: 2em;
         padding: 1em;
@@ -546,10 +552,10 @@ footer {
         flex-grow: 1;
     }
 
-    /*Redirect*/
+    /*Redirect Page*/
     #redirect_message {
         width: 100%;
-        text-align:center;
+        text-align: center;
         font-size: 6vw;
         margin: 10em 1em;
     }
