@@ -310,7 +310,7 @@ tr:nth-child(even) {
 
 #contact_main {
     background: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../images/1024px-Een_colonne_Engelse_Chieftain_tanks.jpg") no-repeat center fixed;
+            rgba(0, 0, 0, 0.5)), url("../images/1024px-een-colonne-chieftain-tanks.jpg") no-repeat center fixed;
     background-size: cover;
     top: 100%;
 }
@@ -355,7 +355,7 @@ tr:nth-child(even) {
 /*Redirect background*/
 #redirect_main {
     background: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("../images/1024px-Tank_unloading_from_rail_tank_carrier_1969_-_geograph.org.uk_-_2321335.jpg") no-repeat center fixed;
+            rgba(0, 0, 0, 0.5)), url("../images/1024px-tank-unloading1969.jpg") no-repeat center fixed;
     background-size: cover;
     top: 100%;
 }
