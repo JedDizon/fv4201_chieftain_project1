@@ -30,9 +30,15 @@ a {
     color: #1F363D;
 }
 
+h2,
 h3 {
     margin: 0.5em auto;
     font-size: 110%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 180%;
 }
 
 /*TO hide titles*/
@@ -461,6 +467,13 @@ footer {
     }
 
     /*Timeline*/
+    #timeline h2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 1em;
+    }
+
     #timeline {
         width: 80vw;
     }
