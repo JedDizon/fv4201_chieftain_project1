@@ -330,6 +330,13 @@ tr:nth-child(even) {
     top: 100%;
 }
 
+#contact_us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 #disclaimer {
     background-color: #4F772D;
     border: 2px solid #90A955;
@@ -337,13 +344,12 @@ tr:nth-child(even) {
     padding: 1em;
     border-radius: 1em;
     line-height: 27px;
+    margin: 2em 0;
 }
 
 #contact_us_form {
     max-width: 400px;
-    position: absolute;
-    left: 10%;
-    top: 280px;
+    position: relative;
     line-height: 27px;
     background-color: #4F772D;
     color: #ECF39E;
@@ -354,6 +360,7 @@ tr:nth-child(even) {
 
 #feedback {
     resize: none;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -372,9 +379,7 @@ tr:nth-child(even) {
 
 #contact_details {
     max-width: 400px;
-    position: absolute;
-    left: 30%;
-    top: 280px;
+    position: relative;
 
     background-color: #4F772D;
     color: #ECF39E;
@@ -562,22 +567,26 @@ footer {
     }
 
     /*Contact*/
+
+    /*
     #contact_us {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
+*/
 
     #disclaimer {
         padding: 1em;
         border-radius: 1em;
-        margin: 1em;
+        margin: 0;
     }
+
 
     #contact_us_form {
         padding: 1em;
         top: 1em;
-        margin: 1em auto;
+        margin: 2em auto;
         display: flex;
         position: relative;
         flex-wrap: wrap;
@@ -590,7 +599,7 @@ footer {
         top: 2em;
         padding: 1em;
         border-radius: 1em;
-        margin: 1em;
+        margin: 1.5em;
         display: flex;
         position: relative;
         flex-grow: 1;
