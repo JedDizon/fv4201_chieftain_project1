@@ -323,8 +323,9 @@ tr:nth-child(even) {
 }
 
 #disclaimer {
-    background-color: #132A13;
-    color: hsl(78, 33%, 50%);
+    background-color: #4F772D;
+    border: 2px solid #90A955;
+    color: #ECF39E;
     padding: 1em;
     border-radius: 1em;
     line-height: 27px;
@@ -336,8 +337,9 @@ tr:nth-child(even) {
     left: 10%;
     top: 280px;
     line-height: 27px;
-    background-color: #132A13;
-    color: hsl(78, 33%, 50%);
+    background-color: #4F772D;
+    color: #ECF39E;
+    border: 2px solid #90A955;
     padding: 1em;
     border-radius: 1em;
 }
@@ -352,8 +354,9 @@ tr:nth-child(even) {
     left: 30%;
     top: 280px;
 
-    background-color: #132A13;
-    color: hsl(78, 33%, 50%);
+    background-color: #4F772D;
+    color: #ECF39E;
+    border: 2px solid #90A955;
     padding: 1em;
     border-radius: 1em;
 }
