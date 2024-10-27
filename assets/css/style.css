@@ -27,7 +27,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #1F363D;
+    color: #ECF39E;
 }
 
 h2,
@@ -48,12 +48,12 @@ h2 {
 
 /*Header*/
 header {
-    background-color: #9EC1A3;
+    background-color: #132A13;
     padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 1px #9EC1A3;
+    box-shadow: 0 1px 1px #132A13;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -73,7 +73,7 @@ h1 {
 
 #menu li {
     margin-bottom: 1em;
-    background-color: #9EC1A3;
+    background-color: #132A13;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -81,18 +81,18 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #1F363D;
+    border-bottom: 1px solid #ECF39E;
 }
 
 /*Dropdown menu*/
 nav {
     position: absolute;
-    background-color: #9EC1A3;
+    background-color: #132A13;
     left: 0;
     padding: 0 1rem;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 1px #9EC1A3;
+    box-shadow: 0 1px 1px #132A13;
     display: none;
     top: 100%;
 }
@@ -130,12 +130,13 @@ main {
 /*Intro*/
 
 #intro {
-    background-color: #132A13;
-    color: #90A955;
+    background-color: #4F772D;
+    color: #ECF39E;
     padding: 1em;
     border-radius: 1em;
     line-height: 27px;
     display: flex;
+    border: 2px solid #90A955;
 }
 
 #chieftain_jordanian_pic {
@@ -385,7 +386,7 @@ tr:nth-child(even) {
 
 /*Footer*/
 footer {
-    background-color: #ECF39E;
+    background-color: #132A13;
 }
 
 #social-networks {
@@ -441,7 +442,7 @@ footer {
 
     /*Header*/
     #menu a:hover {
-        border-bottom: 1px solid #1F363D;
+        border-bottom: 1px solid #ECF39E;
     }
 }
 
