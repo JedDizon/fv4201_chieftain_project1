@@ -171,6 +171,7 @@ main {
     max-width: 35em;
     padding: 2em;
     position: relative;
+    text-align: center;
 }
 
 .checkpoint div {
@@ -271,19 +272,19 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .events {
     max-width: 40%;
-    padding-top: 2em;
-    padding-bottom: 2em;
     border: 2px solid #90A955;
     padding: 1em;
     border-radius: 1em;
     background-color: #4F772D;
-    margin: 2em;
+    margin: 1em;
     line-height: 27px;
     max-height: fit-content;
+    text-align: center;
 }
 
 /*Events images*/
@@ -292,6 +293,7 @@ main {
     height: auto;
     border: 2px solid #90A955;
     border-radius: 15%;
+
 }
 
 .events label {
@@ -536,6 +538,7 @@ footer {
         left: 50%;
         transform: translateX(-50%);
     }
+
 
     /*Timeline Images*/
 
