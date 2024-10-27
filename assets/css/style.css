@@ -127,6 +127,14 @@ main {
     padding: 2em;
 }
 
+.page-title {
+    background-color: #4F772D;
+    border: 2px solid #90A955;
+    color: #ECF39E;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
 /*Intro*/
 
 #intro {
