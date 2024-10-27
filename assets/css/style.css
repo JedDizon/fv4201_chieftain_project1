@@ -406,6 +406,11 @@ footer {
     padding: 5%;
 }
 
+#social-networks a:hover {
+    color: #9EC1A3;
+    border-bottom: 1px solid #9EC1A3;
+}
+
 /*Media query - tablets (768px)*/
 @media screen and (min-width:786px) {
 
