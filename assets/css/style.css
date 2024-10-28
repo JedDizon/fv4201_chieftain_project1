@@ -52,6 +52,7 @@ img {
 
 p {
     text-align: justify;
+    line-height: 27px;
 }
 
 /*TO hide titles*/
@@ -155,7 +156,7 @@ main {
     color: #ECF39E;
     padding: 1em;
     border-radius: 1em;
-    line-height: 27px;
+
     display: flex;
     border: 2px solid #90A955;
 
@@ -213,7 +214,6 @@ main {
 }
 
 .checkpoint p {
-    line-height: 27px;
     color: #ECF39E;
 }
 
@@ -309,7 +309,6 @@ main {
     border-radius: 1em;
     background-color: #4F772D;
     margin: 1em;
-    line-height: 27px;
     max-height: fit-content;
     text-align: center;
 }
@@ -365,14 +364,12 @@ tr:nth-child(even) {
     color: #ECF39E;
     padding: 1em;
     border-radius: 1em;
-    line-height: 27px;
     margin: 2em 0;
 }
 
 #contact_us_form {
     max-width: 400px;
     position: relative;
-    line-height: 27px;
     background-color: #4F772D;
     color: #ECF39E;
     border: 2px solid #90A955;
@@ -428,7 +425,6 @@ tr:nth-child(even) {
     border-radius: 1em;
     background-color: #4F772D;
     margin: 7em;
-    line-height: 27px;
 }
 
 #redirect_message a:hover {
