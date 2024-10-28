@@ -424,14 +424,21 @@ tr:nth-child(even) {
 }
 
 #redirect_message {
-    text-align: center;
     font-size: 150%;
-    position: relative;
     border: 2px solid #90A955;
     padding: 1em;
     border-radius: 1em;
     background-color: #4F772D;
     margin: 7em;
+}
+
+#redirect p {
+    text-align: center;
+}
+
+#redirect_message>a {
+    text-align: center;
+    justify-content: center;
 }
 
 #redirect_message a:hover {
