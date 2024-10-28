@@ -42,7 +42,12 @@ h2 {
 }
 
 img {
-    object-fit: contain;
+    width: 100%;
+    height: auto;
+    border: 2px solid #90A955;
+    border-radius: 15%;
+    object-fit: cover;
+    margin: 1em 0;
 }
 
 /*TO hide titles*/
@@ -191,12 +196,6 @@ main {
     color: #ECF39E;
 }
 
-/*.checkpoint img {
-    width: 50vh;
-    height: auto;
-    border: 2px solid #90A955;
-    border-radius: 15%;
-}*/
 
 .checkpoint label {
     color: #CFE0C3;
@@ -260,6 +259,7 @@ main {
 }
 
 /*Events.html*/
+
 /*Events background*/
 
 #events_main {
@@ -269,6 +269,7 @@ main {
     top: 100%;
 }
 
+/*Events sections*/
 
 #notable_events {
     margin: 5em auto;
@@ -292,14 +293,8 @@ main {
     text-align: center;
 }
 
-/*Events images*/
-/*.events img {
-    width: 50vh;
-    height: auto;
-    border: 2px solid #90A955;
-    border-radius: 15%;
-}*/
 
+/*events images label*/
 .events label {
     color: #CFE0C3;
     font-size: small;
@@ -543,14 +538,6 @@ footer {
         transform: translateX(-50%);
     }
 
-
-    /*Timeline Images*/
-
-    /*.checkpoint img {
-        max-width: 100%;
-        height: auto;
-    }*/
-
     /*Events*/
     #notable_events {
         margin: 0 0.005em;
@@ -565,13 +552,6 @@ footer {
         padding: 0.5em;
 
     }
-
-    /*Events Images*/
-
-    /*.events img {
-        max-width: 100%;
-        height: auto;
-    }*/
 
     /*Contact*/
 
