@@ -94,6 +94,10 @@ h1 {
     white-space: nowrap;
 }
 
+#menu a:hover {
+    border-bottom: 1px solid #ECF39E;
+}
+
 .active {
     border-bottom: 1px solid #ECF39E;
 }
@@ -299,11 +303,11 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .events {
-    max-width: 40%;
+    width: 40%;
     border: 2px solid #90A955;
     padding: 1em;
     border-radius: 1em;
@@ -491,17 +495,17 @@ footer {
     }
 }
 
-/*Media query - laptops (992px)*/
-@media screen and (min-width:992px) {
 
-    /*Header*/
-    #menu a:hover {
-        border-bottom: 1px solid #ECF39E;
+/*Media query - ipads (1150px)*/
+@media screen and (max-width:11500px) {
+    #notable_events {
+        flex-direction: row;
     }
+
 }
 
-/*Media query - phones (1150px)*/
-@media screen and (max-width:1150px) {
+/*Media query - Phones (500px)*/
+@media screen and (max-width:500px) {
 
     body {
         overflow-x: hidden;
@@ -515,7 +519,7 @@ footer {
         text-align: center;
     }
 
-    */ #intro p {
+    #intro p {
         padding: 1em;
     }
 
@@ -554,18 +558,20 @@ footer {
     }
 
     /*Events*/
+
     #notable_events {
-        margin: 0 0.005em;
-        width: 80vw;
-        flex-direction: column;
-        padding-left: 0;
-        padding-right: 0;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
     }
 
     .events {
-        max-width: 100%;
-        padding: 0.5em;
-
+        width: 100%;
     }
 
     /*Contact*/
