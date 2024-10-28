@@ -50,6 +50,10 @@ img {
     margin: 1em 0;
 }
 
+p {
+    text-align: justify;
+}
+
 /*TO hide titles*/
 .hide_title {
     display: none;
@@ -154,6 +158,23 @@ main {
     line-height: 27px;
     display: flex;
     border: 2px solid #90A955;
+
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+}
+
+#intro-text {
+    width: 75%;
+    height: auto;
+    text-align: center;
+}
+
+
+#chieftain_jordanian_pic {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
 
 /*
@@ -493,11 +514,20 @@ footer {
     /*Intro*/
     #intro {
         flex-direction: column;
+        justify-content: center;
     }
 
-    #chieftain_jordanian_pic {
-        max-width: 100%;
+    #intro-text {
+        width: 75%;
         height: auto;
+        text-align: center;
+    }
+
+
+    #chieftain_jordanian_pic {
+        width: 75%;
+        height: auto;
+        vertical-align: middle;
     }
 
     #intro p {
