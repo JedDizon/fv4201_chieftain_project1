@@ -157,7 +157,6 @@ main {
     border-radius: 1em;
     border: 2px solid #90A955;
     padding: 1em;
-    max-height: fit-content;
 
     display: flex;
     flex-direction: row;
@@ -509,25 +508,14 @@ footer {
     }
 
     /*Intro*/
-    #intro {
-        flex-direction: column;
-        justify-content: center;
-    }
 
     #intro-text {
-        width: 75%;
+        width: 100%;
         height: auto;
         text-align: center;
     }
 
-
-    #chieftain_jordanian_pic {
-        width: 75%;
-        height: auto;
-        vertical-align: middle;
-    }
-
-    #intro p {
+    */ #intro p {
         padding: 1em;
     }
 
