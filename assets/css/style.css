@@ -154,19 +154,19 @@ main {
 #intro {
     background-color: #4F772D;
     color: #ECF39E;
-    padding: 1em;
     border-radius: 1em;
+    border: 2px solid #90A955;
+    padding: 1em;
+    max-height: fit-content;
 
     display: flex;
-    border: 2px solid #90A955;
-
-    justify-content: space-between;
     flex-direction: row;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #intro-text {
-    width: 75%;
+    width: 50%;
     height: auto;
     text-align: center;
 }
@@ -175,7 +175,8 @@ main {
 #chieftain_jordanian_pic {
     width: 100%;
     height: auto;
-    vertical-align: middle;
+    justify-content: center;
+    object-fit: cover;
 }
 
 /*
