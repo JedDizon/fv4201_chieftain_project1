@@ -41,6 +41,10 @@ h2 {
     font-size: 180%;
 }
 
+img {
+    object-fit: contain;
+}
+
 /*TO hide titles*/
 .hide_title {
     display: none;
@@ -147,12 +151,13 @@ main {
     border: 2px solid #90A955;
 }
 
+/*
 #chieftain_jordanian_pic {
     width: auto;
     height: 70vh;
     border: 2px solid #90A955;
     border-radius: 25%;
-}
+}*/
 
 #intro p {
     vertical-align: middle;
@@ -186,12 +191,12 @@ main {
     color: #ECF39E;
 }
 
-.checkpoint img {
+/*.checkpoint img {
     width: 50vh;
     height: auto;
     border: 2px solid #90A955;
     border-radius: 15%;
-}
+}*/
 
 .checkpoint label {
     color: #CFE0C3;
@@ -288,13 +293,12 @@ main {
 }
 
 /*Events images*/
-.events img {
+/*.events img {
     width: 50vh;
     height: auto;
     border: 2px solid #90A955;
     border-radius: 15%;
-
-}
+}*/
 
 .events label {
     color: #CFE0C3;
@@ -542,10 +546,10 @@ footer {
 
     /*Timeline Images*/
 
-    .checkpoint img {
+    /*.checkpoint img {
         max-width: 100%;
         height: auto;
-    }
+    }*/
 
     /*Events*/
     #notable_events {
@@ -564,20 +568,19 @@ footer {
 
     /*Events Images*/
 
-    .events img {
+    /*.events img {
         max-width: 100%;
         height: auto;
-    }
+    }*/
 
     /*Contact*/
 
-    /*
+
     #contact_us {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-*/
 
     #disclaimer {
         padding: 1em;
