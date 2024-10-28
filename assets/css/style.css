@@ -430,6 +430,11 @@ tr:nth-child(even) {
     border-radius: 1em;
     background-color: #4F772D;
     margin: 7em;
+
+    position: flex;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word
 }
 
 #redirect p {
@@ -508,8 +513,18 @@ footer {
 
 /*Media query - ipads (1150px)*/
 @media screen and (max-width:11500px) {
+
+    /*notable events*/
     #notable_events {
         flex-direction: row;
+    }
+
+    /*Redirect Page*/
+    #redirect_message {
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+        margin: 3em;
     }
 
 }
@@ -619,10 +634,10 @@ footer {
 
     /*Redirect Page*/
     #redirect_message {
-        width: 100%;
+        width: 50%;
         text-align: center;
-        font-size: 6vw;
-        margin: 10em 1em;
+        justify-content: center;
+
     }
 
 }
