@@ -158,64 +158,58 @@ Timeline:
 ### Page 2
 
 Additional info sections
-Images popping out of container when checking responsiveness
-Fix:
-Sections, images, text, not centred 
-Fix:
-.
-.
-.
-.
-.
+- Images popping out of container when checking responsiveness
+  - Fix:
+- Sections, images, text, not centred 
+  - Fix:
 
 
 ### Page 3
 
 Form
-Not centred in laptop/desktop screen
-Fix: Made the divs in the section display into flex, and adjusted flex position to space evenly
-Not holding shape when checking responsiveness; text going out of the container & losing structure.
-Fix:
-.
-.
-.
+- Not centred in laptop/desktop screen
+  - Fix: Made the divs in the section display into flex, and adjusted flex position to space evenly
+- Not holding shape when checking responsiveness; text going out of the container & losing structure.
+  - Fix:
+
 Contact details 
-Not centred in laptop/desktop screen
-Fix: Made the divs in the section display into flex, and adjusted flex position to space evenly
-Not holding shape when checking responsiveness; text going out of the container & losing structure.
-Fix:
-.
-.
-.
-.
-.
+- Not centred in laptop/desktop screen
+  - Fix: Made the divs in the section display into flex, and adjusted flex position to space evenly
+- Not holding shape when checking responsiveness; text going out of the container & losing structure.
+  - Fix:
+
 
 ## Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. 
+**You will need to mention unfixed bugs and why they were not fixed. 
 This section should include shortcomings of the frameworks or technologies used. 
-Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.**
+
 ---
 
 
 ## Deployment
  
 This project was deployed on Github. The site to deploy can be read below:
-**Instructions copied from CodeInstitute Instructions - The benefits of early deployment **
-Go to the **Settings** tab of your GitHub repo.
-On the left-hand sidebar, in the **Code and automation** section, select **Pages**.
-Make sure:
-**Source** is set to 'Deploy from Branch'.
-**Main branch** is selected.
-**Folder** is set to / (root).
-Under Branch, click **Save**.
-Go back to the **Code** tab. Wait a few minutes for the build to finish and **refresh your repo**.
-On the right-hand side, in the **Environments** section, click on 'github-pages'.
-Click **View deployment** to see the live site. 
+
+**Instructions copied from CodeInstitute Instructions - The benefits of early deployment**
+
+1. Go to the **Settings** tab of your GitHub repo.
+2. On the left-hand sidebar, in the **Code and automation** section, select **Pages**.
+3. Make sure:
+
+    1. **Source** is set to 'Deploy from Branch'.
+    2. **Main branch** is selected.
+    3. **Folder** is set to / (root).
+
+4. Under Branch, click **Save**.
+5. Go back to the **Code** tab. Wait a few minutes for the build to finish and **refresh your repo**.
+6. On the right-hand side, in the **Environments** section, click on 'github-pages'.
+7. Click **View deployment** to see the live site. 
 
 ### Live link:
 
-< Chieftain MBT ( LINK OF LIVE PAGE)>
+ Chieftain MBT < https://jeddizon.github.io/fv4201_chieftain_project1/ >
 
 ---
 
@@ -224,34 +218,38 @@ Click **View deployment** to see the live site.
 
 ### Content
 
-Informative Content
-Wikipedia  < https://en.wikipedia.org/wiki/Chieftain_(tank) >
-Tank-afv.com < https://tank-afv.com/coldwar/UK/chieftain.php >
-Tanks Encyclopedia <https://tanks-encyclopedia.com/coldwar/uk >
-The Tank Museum Youtube
-< https://www.youtube.com/watch?v=D3OF9IvtHLk >
-< https://www.youtube.com/watch?v=yViQoJPZnMQ >
-Extra help 
-Mentor (Julia)
-Outside Code
-Love running code for dropdown, initial styling for logo, initial css for website.
-Timeline: YouTube tutorial  < https://www.youtube.com/watch?v=bI3J5rUonEg&ab_channel=QuickCodingTuts >
-Made background image darker so that the text can be read easier stack overflow < https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css >
-To make cursor pointer a hand on hover stack overflow < https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item >
-.
-.
+- Informative Content
+  - Wikipedia  < https://en.wikipedia.org/wiki/Chieftain_(tank) >
+  - Tank-afv.com < https://tank-afv.com/coldwar/UK/chieftain.php >
+  - Tanks Encyclopedia <https://tanks-encyclopedia.com/coldwar/uk >
+  - The Tank Museum Youtube:
+    - < https://www.youtube.com/watch?v=D3OF9IvtHLk >
+    - < https://www.youtube.com/watch?v=yViQoJPZnMQ >
+
+- Extra help 
+  - Mentor (Julia)
+    - Feedback
+    - Criticism
+    - Tips and tricks for direction
+
+- Outside Code
+  - Love running code for dropdown, initial styling for logo, initial css for website.
+  - Timeline: YouTube tutorial  < https://www.youtube.com/watch?v=bI3J5rUonEg&ab_channel=QuickCodingTuts >
+  - Made background image darker so that the text can be read easier stack overflow < https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css >
+  - To make cursor pointer a hand on hover stack overflow < https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item >
+
 
 ### Media 
 
-Favicon: Flaticon < Military icons created by cube29 - Flaticon > 
-Icons: Font Awesome < https://fontawesome.com >
-Photos: 
-Wikimedia Commons < https://commons.wikimedia.org/wiki/Main_Page >
-Tank-afv.com <https://tank-afv.com/coldwar/UK/chieftain.php >
-Pexels < https://www.pexels.com >
-Colour palette combinations: 
-Colorkit <  https://colorkit.co/palettes/ >
-.
-.
+- Favicon: Flaticon < Military icons created by cube29 - Flaticon > 
+- Icons: Font Awesome < https://fontawesome.com >
+- Photos: 
+  - Wikimedia Commons < https://commons.wikimedia.org/wiki/Main_Page >
+  - Tank-afv.com <https://tank-afv.com/coldwar/UK/chieftain.php >
+  - Pexels < https://www.pexels.com >
+- Colour palette combinations: 
+  - Colorkit <  https://colorkit.co/palettes/ >
+
+
 
 
