@@ -160,12 +160,13 @@ main {
     color: #ECF39E;
     border-radius: 1em;
     border: 2px solid #90A955;
-    padding: 1em;
+    /*padding: 1em;*/
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 #intro-text {
@@ -193,7 +194,7 @@ main {
 #intro p {
     vertical-align: middle;
     text-align: justify;
-    padding: 3em;
+    padding: 2em;
 }
 
 /*Timeline*/
@@ -514,6 +515,17 @@ footer {
 /*Media query - ipads (1150px)*/
 @media screen and (max-width:1150px) {
 
+    /*Intro*/
+    #intro {
+        padding: 2em;
+    }
+
+    #intro-text {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
     /*Timeline*/
     #timeline h2 {
         display: flex;
@@ -578,14 +590,19 @@ footer {
 
     /*Intro*/
 
+    #intro {
+        padding: 2em;
+    }
+
     #intro-text {
         width: 100%;
         height: auto;
         text-align: center;
     }
 
+
     #intro p {
-        padding: 1em;
+        padding: 0;
     }
 
     /*Timeline*/
