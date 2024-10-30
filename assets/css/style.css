@@ -519,6 +519,12 @@ footer {
         flex-direction: row;
     }
 
+    /*Form*/
+    #form_div {
+        width: fit-content;
+        padding: 2em 0;
+    }
+
     /*Redirect Page*/
     #redirect_message {
         width: 90%;
@@ -595,6 +601,12 @@ footer {
     }
 
     /*Contact*/
+
+    #contact_us {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
 
     #form_div {
         width: fit-content;
