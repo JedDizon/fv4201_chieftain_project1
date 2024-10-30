@@ -51,6 +51,8 @@ It also has contact details for the author should anyone wish to contact them (a
 
 There is an identical nav bar on every page which allows users to see which page they are on at any given time and will also allow easy navigation to switch to another page as needed. 
 
+![Nav Bar](/assets/images/chief-navbar.jpg)
+
 ### Intro
 
 The intro section serves as a way to introduce the topic to the user before diving into the history. It is also a way to show the user what the page is about. 
@@ -62,6 +64,8 @@ The timeline on Page 1 allows for users to learn about the development of the Ch
 ### Footer
 
 The footer features links to relevant websites to anyone else wishing to learn more about this topic as well as links to our social media pages for more tank facts. Hovering over each link causes it to change colour and become underlined as a visual indication to the user that they can click them.
+
+![Footer](/assets/images/chief-footer.jpg)
 
 ### Additional Info 
 
@@ -78,6 +82,8 @@ Showcases a form for any user who wishes to leave a comment or any feedback to t
 ### Contact form redirect
 
 This provides as a visual indication to the user that the author has received their comment and a way to return back to the previous pages to continue learning.  
+
+![Redirect](/assets/images/chief-redirect.jpg)
 
 ## Features Left to Implement
 
