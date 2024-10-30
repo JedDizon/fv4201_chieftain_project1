@@ -94,6 +94,7 @@ See below any additional features that I would like to implement:
 2. A small clip of a Chieftain crew training and firing from the BBC website. 
 3. Include a small gallery of photos that are relevant.
 4. A small map in the contact form to show where we are based. 
+5. Interactable table of contents where user can jump down to specified sections (dropdown for menu headers)
 
 ---
 
@@ -139,13 +140,20 @@ Redirect page
 
 ### W3C Markup Validation
 
-See prev commits on edits completed:
-Missing headings
-Image labels to figcaptions, needing to add figures
-
 #### Page 1:
 
 ![W3C Markup Validator Snip Page 1](/assets/images/chief-page1-validate.jpg)
+
+Issues:
+- Image labels incorrect for images
+  - Fix: Replaced labels with figcaptions
+
+- Images and figcaptions needed to be inside figure tags
+  - Fix: Input figure tags
+
+- Warn for “for” attribute inside figcaption. 
+  - Fix: Removed “for” attributes.
+
 
 #### Page 2:
 
@@ -163,12 +171,18 @@ Issues:
 
 ![W3C Markup Validator Snip Redirect Page](/assets/images/chief-redirect-validate.jpg)
 
+Issues:
+- Error for Missing title
+  - Fix: Created heading title and made hidden
+
+
 ### W3C CSS Validation
 
 ![W3C CSS Validator Snip](/assets/images/w3c-css-validator.jpg)
 
 Issues:
-  - position:flex; was found in styling the redirect message. Removed. 
+  - position:flex; was found in styling the redirect message. 
+    - Fix: Removed. 
 
 ### Page 1
 
@@ -185,8 +199,7 @@ Timeline:
 - Timeline was not a complete line down the middle
   - Fix: adjusting max-width of checkpoint div id
 - Images popping out of container when checking responsiveness
-  - Fix:
-
+  - Fix: Object-fit & setting up a parent style for images instead of setting a different one for each  
 
 
 
@@ -194,9 +207,15 @@ Timeline:
 
 Additional info sections
 - Images popping out of container when checking responsiveness
-  - Fix:
-- Sections, images, text, not centred 
-  - Fix:
+  - Fix: Object-fit & setting up a parent style for images instead of setting a different one for each  
+- Sections, images, text, not centred when resizing
+  - Fix: Used text-align & justify-content center
+
+Spec table
+- Text extending outside cell when resizing
+  - Fix: Word wrap, break-word
+- Rows extending past div when resizing
+  - Fix: Table-layout fixed <https://stackoverflow.com/questions/4185814/fixed-table-cell-width>
 
 
 ### Page 3
@@ -205,20 +224,21 @@ Form
 - Not centred in laptop/desktop screen
   - Fix: Made the divs in the section display into flex, and adjusted flex position to space evenly
 - Not holding shape when checking responsiveness; text going out of the container & losing structure.
-  - Fix:
+  - Fix: made width fit content
 
 Contact details 
 - Not centred in laptop/desktop screen
   - Fix: Made the divs in the section display into flex, and adjusted flex position to space evenly
 - Not holding shape when checking responsiveness; text going out of the container & losing structure.
-  - Fix:
+  - Fix: made width fit content
 
 
-## Unfixed Bugs
+### Redirect 
 
-**You will need to mention unfixed bugs and why they were not fixed. 
-This section should include shortcomings of the frameworks or technologies used. 
-Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.**
+Redirect message
+- Link wont centre
+  - Fix: Moved the anchor tag inside p.
+
 
 ---
 
@@ -270,8 +290,14 @@ This project was deployed on Github. The site to deploy can be read below:
 - Outside Code
   - Love running code for dropdown, initial styling for logo, initial css for website.
   - Timeline: YouTube tutorial  < https://www.youtube.com/watch?v=bI3J5rUonEg&ab_channel=QuickCodingTuts >
-  - Made background image darker so that the text can be read easier stack overflow < https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css >
-  - To make cursor pointer a hand on hover stack overflow < https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item >
+  - Stack Overflow
+    - Word wrap
+    - Table layout fixed
+    - Made background image darker so that the text can be read easier < https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css >
+    - To make cursor pointer a hand on hover < https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item >
+  - Object fit 
+    - MND web docs <https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit>
+	  - W3schools <https://www.w3schools.com/css/css3_object-fit.asp>
 
 
 ### Media 
