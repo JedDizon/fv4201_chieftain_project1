@@ -431,7 +431,6 @@ tr:nth-child(even) {
     border-radius: 1em;
     background-color: #4F772D;
     margin: 5em;
-    position: flex;
     word-wrap: break-word;
     width: 90%;
     text-align: center;
@@ -587,10 +586,10 @@ footer {
 
     /*Redirect Page*/
     #redirect_message {
-        width: 90%;
+        width: 100%;
         text-align: center;
         justify-content: center;
-        margin: 3em;
+        margin: 3em 0;
     }
 
 }
@@ -681,9 +680,10 @@ footer {
 
     /*Redirect Page*/
     #redirect_message {
-        width: 50%;
+        width: 100%;
         text-align: center;
         justify-content: center;
+        margin: 3em 0;
 
     }
 
