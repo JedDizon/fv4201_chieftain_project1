@@ -200,6 +200,8 @@ Timeline:
   - Fix: adjusting max-width of checkpoint div id
 - Images popping out of container when checking responsiveness
   - Fix: Object-fit & setting up a parent style for images instead of setting a different one for each  
+- Timeline breaking and extending outside the page when resizing (caused when added the new breakpoint for ipad sized screens)
+  - Fix: Copied styling for phone sized screens into ipad media query.
 
 
 
@@ -238,6 +240,8 @@ Contact details
 Redirect message
 - Link wont centre
   - Fix: Moved the anchor tag inside p.
+- Message div extending past outside the page
+  Fix: adjusted positioning and padding of div
 
 
 ---
