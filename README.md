@@ -2,9 +2,11 @@
 # FV42012 Chieftain History and Development 
 
 Welcome,
+
 This project showcases the development and the history of how the Chieftain MBT came to be. I hope that it can be used as a website where you can go to get an overview on its history. My intended targets are any researcher, student, or just anyone curious about this topic. I hope the site serves as a gateway to understand this topic to drill down to more specific information.
 
-***IMAGE OF UPRUNNING WEBSITE (Website mockup)***
+![Website mockup](/assets/images/chieftainmbt-website-mockup.jpg)
+
 ---
 
 
@@ -14,31 +16,31 @@ This project showcases the development and the history of how the Chieftain MBT 
 
 This page features a brief introduction on the Chieftain before going into the development history as part of a timeline. 
 
-***IMAGE OF P1 Intro***
+![Website Intro](/assets/images/chief-intro.jpg)
 
 The timeline includes the thinking of why it was needed, its uses, and any problems it faced during its development cycle and while it was in service. This serves as a straightforward way for anyone curious about this topic to understand its development in a chronological order.
 
-***IMAGE OF P1 timeline***
+![Timeline](/assets/images/chief-timeline.jpg)
 
 ### Page 2 (Additional Info)
 
 This page features additional information that wasn't input into the timeline; it features 2 wars that the Chieftain took part in, along with 2 important variants.
 
-***IMAGE OF P2 battles/variants***
+![Additional Info page](/assets/images/chief-addnl-info.jpg)
 
 There is also a small table showing the tank’s notable specifications. This is useful for anyone who just wants a quick look at the tank’s details.
 
-***IMAGE OF P2 Specs***
+![Chieftain Specs table](/assets/images/chief-specs.jpg)
 
 ### Page 3 (Contact Us)
 
 This page features a disclaimer for anyone who wishes to use the information on the website to use with care as there may be inaccurate information. 
 
-***IMAGE OF P3 Disclaimer***
+![Disclaimer](/assets/images/chief-disclaimer.jpg)
 
 It also has contact details for the author should anyone wish to contact them (address, phone number, and email). There is a small form for any feedback that anyone that may wish to contact the author also.
 
-***IMAGE OF P3 Contact details***
+![Contact Details](/assets/images/chief-contact-details.jpg)
 
 ---
 
