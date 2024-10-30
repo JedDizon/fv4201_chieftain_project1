@@ -143,6 +143,17 @@ See prev commits on edits completed:
 Missing headings
 Image labels to figcaptions, needing to add figures
 
+#### Page 1:
+
+#### Page 2:
+
+No p element in scope but a p end tag seen. (Line 126 and 150)
+  Fix: moved closing p tag to remove figure tags
+
+#### Page 3:
+
+#### Redirect Page:
+
 ### W3C CSS Validation
 
 ![W3C CSS Validator Snip](/assets/images/w3c-css-validator.jpg)
