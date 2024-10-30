@@ -562,7 +562,13 @@ footer {
 
     /*notable events*/
     #notable_events {
-        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .events {
+        width: 100%;
     }
 
     /*Form*/
