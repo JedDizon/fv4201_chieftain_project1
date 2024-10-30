@@ -512,7 +512,41 @@ footer {
 
 
 /*Media query - ipads (1150px)*/
-@media screen and (max-width:11500px) {
+@media screen and (max-width:1150px) {
+
+    /*Timeline*/
+    #timeline h2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 1em;
+    }
+
+    #timeline {
+        width: 80vw;
+    }
+
+    #timeline .checkpoint {
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+
+    #timeline .checkpoint::before {
+        width: 3px;
+        height: 4em;
+        top: -2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #timeline .checkpoint div::before {
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
     /*notable events*/
     #notable_events {
