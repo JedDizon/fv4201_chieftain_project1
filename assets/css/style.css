@@ -430,21 +430,28 @@ tr:nth-child(even) {
     padding: 1em;
     border-radius: 1em;
     background-color: #4F772D;
-    margin: 7em;
-
+    margin: 5em;
     position: flex;
+    word-wrap: break-word;
+    width: 90%;
     text-align: center;
-    width: 100%;
-    word-wrap: break-word
+    justify-content: center;
+
 }
 
 #redirect p {
     text-align: center;
 }
 
-#redirect_message>a {
+#redirect_message a {
     text-align: center;
     justify-content: center;
+    border-bottom: 1px solid #ECF39E;
+
+    background-color: #132A13;
+    color: #ECF39E;
+    border: 2px solid #132A13;
+    border-radius: 5px;
 }
 
 #redirect_message a:hover {
