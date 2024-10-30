@@ -79,6 +79,8 @@ Features a small table on details about the tank.
 
 Showcases a form for any user who wishes to leave a comment or any feedback to the author. The user will be asked to include an email, name, and a comment if they wish to send feedback. It includes a submit and reset button to send/reset the form which changes colour to prompt users to click.
 
+![Form](/assets/images/chief-form.jpg)
+
 ### Contact form redirect
 
 This provides as a visual indication to the user that the author has received their comment and a way to return back to the previous pages to continue learning.  
