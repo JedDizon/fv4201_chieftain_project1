@@ -145,14 +145,23 @@ Image labels to figcaptions, needing to add figures
 
 #### Page 1:
 
+![W3C Markup Validator Snip Page 1](/assets/images/chief-page1-validate.jpg)
+
 #### Page 2:
 
-No p element in scope but a p end tag seen. (Line 126 and 150)
-  Fix: moved closing p tag to remove figure tags
+![W3C Markup Validator Snip Page 2](/assets/images/chief-page2-validate.jpg)
+
+Issues:
+- No p element in scope but a p end tag seen. (Line 126 and 150).
+  - Fix: moved closing p tag to remove figure tags
 
 #### Page 3:
 
+![W3C Markup Validator Snip Page 3](/assets/images/chief-page3-validate.jpg)
+
 #### Redirect Page:
+
+![W3C Markup Validator Snip Redirect Page](/assets/images/chief-redirect-validate.jpg)
 
 ### W3C CSS Validation
 
