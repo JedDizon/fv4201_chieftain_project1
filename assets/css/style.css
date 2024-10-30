@@ -596,40 +596,9 @@ footer {
 
     /*Contact*/
 
-
-    #contact_us {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    #disclaimer {
-        padding: 1em;
-        border-radius: 1em;
-        margin: 0;
-    }
-
-
-    #contact_us_form {
-        padding: 1em;
-        top: 1em;
-        margin: 2em auto;
-        display: flex;
-        position: relative;
-        flex-wrap: wrap;
-        max-width: fit-content;
-    }
-
-    #contact_details {
-        height: 100%;
-        left: 2%;
-        top: 2em;
-        padding: 1em;
-        border-radius: 1em;
-        margin: 1.5em;
-        display: flex;
-        position: relative;
-        flex-grow: 1;
+    #form_div {
+        width: fit-content;
+        padding: 2em 0;
     }
 
     /*Redirect Page*/
