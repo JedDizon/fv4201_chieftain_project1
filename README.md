@@ -142,9 +142,14 @@ Redirect page
 See prev commits on edits completed:
 Missing headings
 Image labels to figcaptions, needing to add figures
+
 ### W3C CSS Validation
 
-No issues as per W3C
+![W3C CSS Validator Snip](/assets/images/w3c-css-validator.jpg)
+
+Issues:
+  - position:flex; was found in styling the redirect message. Removed. 
+
 ### Page 1
 
 Intro: 
