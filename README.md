@@ -5,6 +5,11 @@ Welcome,
 
 This project showcases the development and the history of how the Chieftain MBT came to be. I hope that it can be used as a website where you can go to get an overview on its history. My intended targets are any researcher, student, or just anyone curious about this topic. I hope the site serves as a gateway to understand this topic to drill down to more specific information.
 
+
+### Live link:
+
+ Chieftain MBT < https://jeddizon.github.io/fv4201_chieftain_project1/ >
+
 ![Website mockup](/assets/images/chieftainmbt-website-mockup.jpg)
 
 ---
@@ -250,6 +255,8 @@ Redirect message
 ## Deployment
  
 This project was deployed on Github. The site to deploy can be read below:
+
+### Steps
 
 **Instructions copied from CodeInstitute Instructions - The benefits of early deployment**
 
