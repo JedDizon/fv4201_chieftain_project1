@@ -130,12 +130,56 @@ See below any additional features that I would like to implement:
 
 ## Testing
 
+### W3C HTML Validation
+
+![W3C HTML Validator confirmation](/assets/images/chief-html-websitevalidation.jpg)
+
+Link to validator results: <https://validator.w3.org/nu/?doc=https%3A%2F%2Fjeddizon.github.io%2Ffv4201_chieftain_project1%2F>
+
+#### Page 1:
+
+Issues:
+- Image labels incorrect for images
+  - Fix: Replaced labels with figcaptions
+
+- Images and figcaptions needed to be inside figure tags
+  - Fix: Input figure tags
+
+- Warn for “for” attribute inside figcaption. 
+  - Fix: Removed “for” attributes.
+
+
+#### Page 2:
+
+Issues:
+- No p element in scope but a p end tag seen. (Line 126 and 150).
+  - Fix: moved closing p tag to remove figure tags
+
+#### Page 3:
+
+No issues.
+
+#### Redirect Page:
+
+Issues:
+- Error for Missing title
+  - Fix: Created heading title and made hidden
+
+
+### W3C CSS Validation
+
+![W3C CSS Validator confirmation](/assets/images/chief-css-websitevalidation.jpg)
+
+Issues:
+  - position:flex; was found in styling the redirect message. 
+    - Fix: Removed. 
+
 ChromeDevTool
-  - For making the pages responsive
+  - Used for making the pages responsive
 
 Links working 
-  - Within page
-  - External links - opens new tab
+  - Within website (Brings user to correct page)
+  - External links (opens new tab)
 
 Timeline
   - Responsive as the sections move depending on the screen size
@@ -151,67 +195,19 @@ Contact form
 
 Redirect page
   - Tells the user that the author has received the comment and provides a link back to the main page. 
----
 
+---
 
 ## Responsiveness
 
-### Desktop & Laptop
+### Different device screens
 
-### Ipad
 
-### Phone
- 
+
 ---
 
 
 ## Bugs 
-
-### W3C Markup Validation
-
-#### Page 1:
-
-![W3C Markup Validator Snip Page 1](/assets/images/chief-page1-validate.jpg)
-
-Issues:
-- Image labels incorrect for images
-  - Fix: Replaced labels with figcaptions
-
-- Images and figcaptions needed to be inside figure tags
-  - Fix: Input figure tags
-
-- Warn for “for” attribute inside figcaption. 
-  - Fix: Removed “for” attributes.
-
-
-#### Page 2:
-
-![W3C Markup Validator Snip Page 2](/assets/images/chief-page2-validate.jpg)
-
-Issues:
-- No p element in scope but a p end tag seen. (Line 126 and 150).
-  - Fix: moved closing p tag to remove figure tags
-
-#### Page 3:
-
-![W3C Markup Validator Snip Page 3](/assets/images/chief-page3-validate.jpg)
-
-#### Redirect Page:
-
-![W3C Markup Validator Snip Redirect Page](/assets/images/chief-redirect-validate.jpg)
-
-Issues:
-- Error for Missing title
-  - Fix: Created heading title and made hidden
-
-
-### W3C CSS Validation
-
-![W3C CSS Validator Snip](/assets/images/w3c-css-validator.jpg)
-
-Issues:
-  - position:flex; was found in styling the redirect message. 
-    - Fix: Removed. 
 
 ### Page 1
 
