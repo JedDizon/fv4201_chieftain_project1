@@ -92,6 +92,20 @@ This provides as a visual indication to the user that the author has received th
 
 ![Redirect](/assets/images/chief-redirect.jpg)
 
+---
+
+## Design
+
+### Colour Scheme
+
+![Color Palette](/assets/images/chief-colorpalette.jpg)
+
+- The above colors were chosen as the colors fit the aesthetic of a military historical site. This serves as a way to tell the user that they're reading about military history. 
+- The range of colours in the palette allow for nice contrast also to allow the user to easily read the content.
+
+
+---
+
 ## Features Left to Implement
 
 See below any additional features that I would like to implement:
