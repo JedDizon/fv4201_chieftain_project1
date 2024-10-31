@@ -286,7 +286,7 @@ This project was deployed on Github. The site to deploy can be read below:
     - < https://www.youtube.com/watch?v=yViQoJPZnMQ >
 
 - Extra help 
-  - Mentor (Julia)
+  - Mentor (Julia Konovalova)
     - Feedback
     - Criticism
     - Tips and tricks for direction
@@ -295,8 +295,8 @@ This project was deployed on Github. The site to deploy can be read below:
   - Love running code for dropdown, initial styling for logo, initial css for website.
   - Timeline: YouTube tutorial  < https://www.youtube.com/watch?v=bI3J5rUonEg&ab_channel=QuickCodingTuts >
   - Stack Overflow
-    - Word wrap
-    - Table layout fixed
+    - Word wrap < https://stackoverflow.com/questions/1147877/how-to-word-wrap-text-in-html >
+    - Table layout fixed < https://stackoverflow.com/questions/2259189/table-overflowing-outside-of-div >
     - Made background image darker so that the text can be read easier < https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css >
     - To make cursor pointer a hand on hover < https://stackoverflow.com/questions/3087975/how-to-change-the-cursor-into-a-hand-when-a-user-hovers-over-a-list-item >
   - Object fit 
@@ -306,7 +306,7 @@ This project was deployed on Github. The site to deploy can be read below:
 
 ### Media 
 
-- Favicon: Flaticon < Military icons created by cube29 - Flaticon > 
+- Favicon: Flaticon <a href="https://www.flaticon.com/free-icons/military" title="military icons">Favicon: Military icons created by cube29 - Flaticon</a>
 - Icons: Font Awesome < https://fontawesome.com >
 - Photos: 
   - Wikimedia Commons < https://commons.wikimedia.org/wiki/Main_Page >
