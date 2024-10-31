@@ -103,6 +103,16 @@ See below any additional features that I would like to implement:
 
 ---
 
+## Technologies Used
+
+- HTML: used to create the basis of the website.
+- CSS: used to style and edit the layout of the website.
+- Balsamiq: used to create wireframes of what the website was envisioned to look like.
+- Git: used for version control.
+- Github: used to host the website.
+
+---
+
 
 ## Testing
 
