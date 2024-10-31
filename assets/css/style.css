@@ -106,11 +106,6 @@ h1 {
     border-bottom: 1px solid #ECF39E;
 }
 
-header h1 {
-    width: 100%;
-    text-align: center;
-}
-
 /*Dropdown menu*/
 nav {
     position: absolute;
@@ -158,6 +153,12 @@ main {
     color: #ECF39E;
     border-radius: 1em;
     margin-bottom: 2em;
+    padding: 1em;
+
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
 }
 
 /*Intro*/
