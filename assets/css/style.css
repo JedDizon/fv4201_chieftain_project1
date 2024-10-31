@@ -55,6 +55,10 @@ p {
     line-height: 27px;
 }
 
+body i {
+    padding-right: 0.2em;
+}
+
 /*TO hide titles*/
 .hide_title {
     display: none;
